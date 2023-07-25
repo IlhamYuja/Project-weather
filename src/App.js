@@ -26,14 +26,18 @@ function App() {
         setForecast({city: searchData.label, ...forecastResponse})
     }).catch((err) => console.log(err) )
   }
- 
+  console.log(currentWeather)
   console.log(forecast)
 
   return (
     <div className="container">
+      <label className='label-heading'>Application Weather</label>
      <Search onSearchChange={handleOnSearchChange}/>
      {currentWeather && <CurrentWeather data={currentWeather}/>}
      {forecast && <Forecast data={forecast}/>}
+
+
+
     </div>
   );
 }
