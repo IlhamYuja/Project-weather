@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Project Weather Web Application 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+this is a weather prediction application where when we want to know the weather predictions at a certain location by providing weather details at that location just by searching for the name of the city you are going to, this application will get weather prediction data on that city.
+
+# Demo
+u can akses the demo in this link :
+https://app-weather-ilham.netlify.app
 
 ## Available Scripts
 
